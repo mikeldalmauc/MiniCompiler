@@ -1,0 +1,43 @@
+(* esto es 
+   un comentario *)
+
+programa prueba_general
+    variables a, b, c : entero;
+    variables d, e, f : real;
+comienzo
+
+	(* Operadores de comparación, y operadores aritméticos, sentencias asignación e condicional*)
+        si a == b entonces
+            a = a + 1;
+        fin;
+        si a >= b entonces
+            a = a - 1;
+        fin;
+        si a <= b entonces
+            a = a/3;
+        fin;
+        si a < b entonces
+            a = a * 2;
+        fin;
+        si a > b entonces
+
+	(* Expresión aritmética compuesta *)
+            a = ((a + 1)*23)/5;
+
+        fin;
+        si a /= b entonces
+	(* Expresión aritmética compuesta con reales*)
+            d = ((e + 1.0)*3.4236E+2)/3.2e-4;
+        fin;     
+
+	(* Operadores booleanos y estructura de control hacer mientras, y romper si*)
+
+	hacer 
+		si (a /= b) && !(c == 0) entonces
+			c  = c - 1 ;
+		fin;
+		
+		romper si (a <= b ) || (a < c);
+	
+	hasta !( c > 0) fin;
+fin ;

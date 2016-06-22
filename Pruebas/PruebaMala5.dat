@@ -1,0 +1,14 @@
+programa sentencias_do_break
+    variables a, b, c : entero;
+    variables d, e : real;
+
+
+
+comienzo
+    hacer
+        a = a + 1;
+        romper si a > 7;
+    hasta a < 10 fin;
+	b = c;
+	romper si b > 0;
+fin ;

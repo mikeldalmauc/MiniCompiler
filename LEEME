@@ -1,0 +1,22 @@
+Miembros: - Mikel Dalmau Cherino
+	  - Diego Lorenzo 
+Grupo: C3
+
+Instrucciones para ejecutar la práctica:
+
+	1.Abrir una terminal
+	2.Navegar hasta el directorio fuente
+	3.Ejecutar: make
+
+
+Para ver el autómata de análisis LR:
+
+	- Ejecutar: make dot
+
+Para hacer las pruebas una vez compilado:
+
+	- Ejecutar: make pruebas
+
+Limpiar fichero fuente:
+
+	- Ejecutar: make clean

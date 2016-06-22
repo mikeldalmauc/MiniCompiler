@@ -1,0 +1,15 @@
+programa hacer_sin_hasta
+
+    variables a, b, c : entero;
+    variables d, e, f : real;
+comienzo
+
+(* Sentencia bucle sin condición de salida hasta (condicion) fin; *)
+
+    a = 2;
+    b = 3;
+    f = 0.1;
+    hacer
+        a = a + b * f;
+
+fin ;

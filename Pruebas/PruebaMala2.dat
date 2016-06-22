@@ -1,0 +1,23 @@
+programa miPruebamala
+
+    variables do,re,mi : real;
+
+    procedimiento unProcedimiento (p1: out real; p2: in out real; p3: in real)
+    comienzo
+        p1 = p2 + p3;
+	p2 = p2 - p3;
+    fin;
+
+(* La llamada al procedimiento tiene 2 parámetros *)
+ 
+comienzo
+
+    do = 2.0;
+    re = 3.0E-2;
+    mi = 5.0e+7;
+
+    unProcedimiento(do,re);   
+
+
+fin ;
+

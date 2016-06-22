@@ -1,0 +1,18 @@
+programa break_mal_colocado
+
+    variables i, j : entero;
+	
+    
+	(* Condicion de salida del bucle incorrecta *)
+
+comienzo
+	i = 0;
+        j = 50;
+
+   	 hacer
+        	i = 0;
+
+   	 hasta i = 8 fin;
+
+fin ;
+

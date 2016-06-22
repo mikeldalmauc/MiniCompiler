@@ -1,0 +1,25 @@
+(* En esta prueba se comprueban las declaraciones de subprogramas *)
+
+programa ejemplo_con_nombre_muy_largo 
+variables a, b, c : entero;
+variables d, e : real;
+
+procedimiento suma(x, y : in entero; resultado : in out entero; otro : out real)
+   variables aux : entero;
+   comienzo
+      hacer 
+         aux = a; c = b;
+	 aux = aux-1;
+	 c = c+1 ;
+      hasta aux /= 0 fin ;
+   fin;
+
+comienzo
+   leer(a); leer(b);
+   d = 1/b;
+   e = 0.1e-1/a;
+   (* suma(a,b,c); esto solo para aquellos que 
+                   traten llamadas a procedimientos *)
+   c = c*(c*d)+e;
+   escribir_linea(c*c);
+fin ;
